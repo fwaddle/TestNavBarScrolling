@@ -11,11 +11,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
   @IBOutlet weak var tableView: UITableView!
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
-
   func numberOfSections(in tableView: UITableView) -> Int {
       // #warning Incomplete implementation, return the number of sections
       return 1
